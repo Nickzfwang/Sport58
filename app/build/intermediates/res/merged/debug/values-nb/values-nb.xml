@@ -58,7 +58,6 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Åpne på telefonen"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Logg på"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Logg på med Google"</string>
-    <string name="messenger_send_button_text">Send</string>
     <string msgid="368094699078615544" name="s1">"Lagre bilde"</string>
     <string msgid="4550830452390689489" name="s2">"Vil du la annonsen lagre bildet i bildegalleriet?"</string>
     <string msgid="2435407834265420668" name="s3">"Godta"</string>

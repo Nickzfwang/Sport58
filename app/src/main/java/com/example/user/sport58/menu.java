@@ -110,7 +110,7 @@ public class menu extends AppCompatActivity implements Runnable {
                     terms.setPositiveButton("更新!", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            Uri uri = Uri.parse("https://drive.google.com/open?id=0Byle8vgkmUROODRuNjloOFlFN3c");
+                            Uri uri = Uri.parse("https://drive.google.com/uc?authuser=0&id=0Byle8vgkmUROODRuNjloOFlFN3c&export=download");
                             Intent apk = new Intent(Intent.ACTION_VIEW, uri);
                             startActivity(apk);
                             once++;
