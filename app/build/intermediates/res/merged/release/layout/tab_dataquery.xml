@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.gavinliu.android.lib.scale.ScaleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    tools:context="com.example.user.sport58.Tab_dataquery">
+
+
+    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/top">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nogame"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBar7"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/top_date">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/top_date"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal"
+            android:text="運彩投注中，開盤手利用控制盤口影響投注，導致開盤盤口與真實情況有差異，運動58透過獨家數據運算，得到一個預估值，洞察盤口方向後，幫助會員得到更多的投注資訊，58所提供之資訊根以初盤為準，並已力求精確可靠，資料只供參考用途。" />
+
+        <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+            android:id="@+id/top_date"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/text_line" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:textSize="20sp" />
+
+        </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+</cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+

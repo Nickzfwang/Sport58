@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">39345342536-rq3i32gct2cdl55mrvqehrl0rsd8ejni.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sport58-7a2fc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">39345342536</string>
+    <string name="google_api_key" translatable="false">AIzaSyDuxvRsWiBX8uKQwjLXl4mFhuefb691_ss</string>
+    <string name="google_app_id" translatable="false">1:39345342536:android:37700db1bb0574b5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDuxvRsWiBX8uKQwjLXl4mFhuefb691_ss</string>
+    <string name="google_storage_bucket" translatable="false">sport58-7a2fc.appspot.com</string>
+    <string name="project_id" translatable="false">sport58-7a2fc</string>
+</resources>

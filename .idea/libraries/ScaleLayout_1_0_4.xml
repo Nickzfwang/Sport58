@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ScaleLayout-1.0.4">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/ec58e3b44d083c37001c9f110771c95194ac503d/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ec58e3b44d083c37001c9f110771c95194ac503d/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.gavinliu.android.lib/ScaleLayout/1.0.4/25b4a1947777aaa7cd145a3ddbbb8b55d3045dce/ScaleLayout-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

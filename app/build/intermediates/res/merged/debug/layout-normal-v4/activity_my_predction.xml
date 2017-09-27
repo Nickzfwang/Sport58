@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.gavinliu.android.lib.scale.ScaleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.sport58.My_predction">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="#FFC125"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_predction_snow">
+
+        <com.jetradarmobile.snowfall.SnowfallView
+            android:id="@+id/snowfallView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/appbar"
+            app:snowflakeAlphaMax="255"
+            app:snowflakeAlphaMin="150"
+            app:snowflakeAngleMax="5"
+            app:snowflakeSizeMax="8dp"
+            app:snowflakeSizeMin="1dp"
+            app:snowflakeSpeedMax="10"
+            app:snowflakeSpeedMin="2"
+            app:snowflakesAlreadyFalling="false"
+            app:snowflakesFadingEnabled="true"
+            app:snowflakesNum="250" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/predction_bg" />
+
+        <ImageView
+            android:id="@+id/img_line"
+            android:layout_width="wrap_content"
+            android:layout_height="335dp"
+            android:layout_alignTop="@+id/img_top"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/predction_con" />
+
+        <ImageView
+            android:id="@+id/img_end"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/snowfallView"
+            android:layout_alignLeft="@+id/img_top"
+            android:layout_alignStart="@+id/img_top"
+            app:srcCompat="@drawable/predction_top" />
+
+        <ImageView
+            android:id="@+id/img_top"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="39dp"
+            android:background="@drawable/predction_top"
+            android:layout_alignTop="@+id/imageView5"
+            android:layout_centerHorizontal="true" />
+
+
+        <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+            android:id="@+id/predction_tab"
+            android:layout_width="230dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/img_top"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_above="@+id/img_end">
+
+            <ImageView
+                android:id="@+id/my_predction_nogame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/my_predction_nogmae" />
+
+            <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+                android:id="@+id/btngrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <Button
+                    android:id="@+id/basketball_bn"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@+id/baseball_bn"
+                    android:layout_alignStart="@+id/baseball_bn"
+                    android:layout_below="@+id/baseball_bn"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/predction"
+                    android:text="籃球" />
+
+                <Button
+                    android:id="@+id/tennis_bn"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@+id/football_bn"
+                    android:layout_alignStart="@+id/football_bn"
+                    android:layout_below="@+id/football_bn"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/predction"
+                    android:text="網球" />
+
+                <Button
+                    android:id="@+id/usafootball_bn"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@+id/iceball_bn"
+                    android:layout_alignStart="@+id/iceball_bn"
+                    android:layout_below="@+id/iceball_bn"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/predction"
+                    android:text="美式足球" />
+
+                <Button
+                    android:id="@+id/baseball_bn"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/predction"
+                    android:text="棒球" />
+
+                <Button
+                    android:id="@+id/football_bn"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@+id/basketball_bn"
+                    android:layout_alignStart="@+id/basketball_bn"
+                    android:layout_below="@+id/basketball_bn"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/predction"
+                    android:text="足球" />
+
+                <Button
+                    android:id="@+id/iceball_bn"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@+id/tennis_bn"
+                    android:layout_alignStart="@+id/tennis_bn"
+                    android:layout_below="@+id/tennis_bn"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/predction"
+                    android:text="冰球" />
+
+            </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/predction_recyclerview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/relativeLayout25"
+                android:layout_centerHorizontal="true" />
+
+        </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_top"
+            android:layout_alignTop="@+id/img_top"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@android:color/background_dark"
+            android:text="我的預測" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_end"
+            android:layout_alignTop="@+id/img_end"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@android:color/background_dark" />
+
+    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+</cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+

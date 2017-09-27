@@ -1,0 +1,202 @@
+<cn.gavinliu.android.lib.scale.ScaleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center">
+
+    <HorizontalScrollView
+        android:id="@+id/ballScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:background="@color/cardview_light_background">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/appBarLayout"
+            android:orientation="horizontal"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder_1"
+                android:drawableTop="@drawable/icon_mlb"
+                android:padding="5dp"
+                android:text="棒球"
+
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder_1"
+                android:drawableTop="@drawable/icon_nba"
+                android:padding="5dp"
+                android:text="籃球"
+
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder_1"
+                android:drawableTop="@drawable/icon_foot"
+                android:padding="5dp"
+                android:text="足球"
+
+                tools:ignore="ButtonStyle,HardcodedText" />
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder_1"
+                android:drawableTop="@drawable/icon_pan"
+                android:padding="5dp"
+                android:text="網球"
+
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder_1"
+                android:drawableTop="@drawable/icon_ice"
+                android:padding="5dp"
+                android:text="冰球"
+
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder_1"
+                android:drawableTop="@drawable/icon_usafoot"
+                android:padding="5dp"
+                android:text="美式足球"
+
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+        android:id="@+id/select"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ballScrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="5dp">
+
+        <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/relativeLayout22"
+            android:layout_toStartOf="@+id/relativeLayout22">
+
+            <Button
+                android:id="@+id/left_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/relativeLayout22"
+                android:layout_toStartOf="@+id/relativeLayout22"
+                android:background="@drawable/nav_bn_left" />
+        </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+        <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/relativeLayout22"
+            android:layout_toRightOf="@+id/relativeLayout22">
+
+            <Button
+                android:id="@+id/right_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/relativeLayout22"
+                android:layout_toRightOf="@+id/relativeLayout22"
+                android:background="@drawable/nav_bn_right"
+                android:elevation="0dp"
+                tools:ignore="UnusedAttribute" />
+        </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+        <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+            android:id="@+id/relativeLayout22"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bn_mid">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|center"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+        </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/select">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nogame"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar6"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+</cn.gavinliu.android.lib.scale.ScaleRelativeLayout>

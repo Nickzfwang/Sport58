@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_gameover_basketball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_gameover_basketball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_gameover_football.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_gameover_football.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_game_menu.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_game_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\app_bar_menu.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\app_bar_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_gameover_iceball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_gameover_iceball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_predction.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_predction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_gameover_usafootball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_gameover_usafootball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_gameover_baseball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_gameover_baseball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\item_gameover_tennis.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout-v21\\item_gameover_tennis.xml"
+    }
+]

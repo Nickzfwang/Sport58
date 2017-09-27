@@ -1,0 +1,698 @@
+[
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_iceball.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_iceball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_game_menu.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_game_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tab_data.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_tab_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_prediction.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_menu.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\app_bar_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_dataquery.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\tab_dataquery.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_tennis.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_tennis.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ceryle_segmented_group.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\43ad4825e4ca4c85a2df06de12e06e739184ebe1\\output\\res\\layout\\ceryle_segmented_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_iceball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_iceball.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dataquery.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_dataquery.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registered.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_registered.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tab_data.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_tab_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ceryle_segmented_group.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\73319ab36e614b2fb087cd4ffc592c314047feee\\output\\res\\layout\\ceryle_segmented_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_basketball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_basketball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_dataquery.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\tab_dataquery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_dataquery.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_dataquery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_menu.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\nav_header_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_tennis.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_tennis.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_game_menu.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_game_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_basketball.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_basketball.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_football.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_football.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_predction.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_my_predction.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_finishdata.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\tab_finishdata.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_football.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_football.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_predction.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_predction.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\faboptions_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\79f839565e0a4f4deabdf926317057df654e357f\\output\\res\\layout\\faboptions_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\faboptions_separator.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\79f839565e0a4f4deabdf926317057df654e357f\\output\\res\\layout\\faboptions_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prediction.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_game_menu.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_game_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_game_menu.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_game_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registered.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_registered.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_gamedata.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\tab_gamedata.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_gamedata.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\tab_gamedata.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_usafootball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_usafootball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_menu.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\nav_header_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_baseball.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_baseball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_usafootball.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_usafootball.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_finishdata.xml",
+        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\tab_finishdata.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\6508859efdebc5a7b9c5300cc0bfd8b8fcd97a64\\output\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\faboptions_button.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\79f839565e0a4f4deabdf926317057df654e357f\\output\\res\\layout\\faboptions_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gameover_baseball.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_gameover_baseball.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\bc6eb3e51a5be5fe5c091bd79b0625f64cc92349\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    }
+]

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="layoutcompat-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/9d4eed9df12a4e7afe41c8e3e4d8b69360460af1/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9d4eed9df12a4e7afe41c8e3e4d8b69360460af1/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zzzmode.android/layoutcompat/1.0/f792dd0e3d201e96783854a20760870e41e202da/layoutcompat-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

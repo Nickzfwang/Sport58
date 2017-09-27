@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sport58</string>
+    <string name="facebook_app_id">134795183779104</string>
+    <string name="admob_id">ca-app-pub-1543324606848385/3517415095</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tab_data">tab_data</string>
+    <string name="about_58">About 運動58</string>
+    <string name="_58">運動58，是關注運動的起跑點，用實際的行動去支持所愛球隊，同時也能預測賽事，並且能從網站為您數據分析中，了解自己的精準數據，也能從其他分析師的數據中，分辨誰才是最充分了解賽事的分析師，快來加入我們，成為最神的分析師。</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="SegmentedButton-v1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/73319ab36e614b2fb087cd4ffc592c314047feee/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/73319ab36e614b2fb087cd4ffc592c314047feee/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ceryle/SegmentedButton/v1.2.2/af46f27b5fbf342eab600e3f995bcae5fe953ba2/SegmentedButton-v1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

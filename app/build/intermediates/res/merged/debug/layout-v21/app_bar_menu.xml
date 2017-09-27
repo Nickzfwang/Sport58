@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.gavinliu.android.lib.scale.ScaleRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:background="@color/cardview_dark_background"
+    tools:context="com.example.user.sport58.menu">
+
+    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/cardview_dark_background">
+
+        <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/ballScrollView">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/relativeLayout19"
+                android:layout_below="@+id/ballScrollView">
+
+                <cn.gavinliu.android.lib.scale.ScaleLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        tools:ignore="UselessParent">
+
+                        <ViewFlipper
+                            android:id="@+id/flipper"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            tools:ignore="UselessLeaf">
+
+                        </ViewFlipper>
+
+                    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+                    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+                        android:id="@+id/relativeLayout21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/com_facebook_auth_dialog_header_background">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/welcome"
+                            tools:ignore="ContentDescription" />
+
+                    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+                    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp">
+
+                        <cn.gavinliu.android.lib.scale.ScaleLinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:orientation="horizontal"
+                            tools:ignore="UselessParent">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/sport58_buy"
+                                tools:ignore="ContentDescription" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/sport58_sale"
+                                tools:ignore="ContentDescription" />
+                        </cn.gavinliu.android.lib.scale.ScaleLinearLayout>
+                    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+                    <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:drawableRight="@drawable/about"
+                            android:text="About 運動58"
+                            android:textColor="#ffffffff"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/textView4"
+                            android:text="運動58APP 純提供賽事資訊及預測賽事，讓您在賽事資訊觀看上更方便，運動58APP，是關注運動的起跑點，用實際的行動去支持所愛球隊，同時也能預測賽事，並且能從網站為您數據分析中，了解自己的精準數據，也能從其他分析師的數據中，分辨誰才是最充分了解賽事的分析師，快來加入我們，成為最神的分析師。"
+                            android:textColor="@color/com_facebook_button_border_color_focused"
+                            android:textSize="18sp" />
+
+                    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+                </cn.gavinliu.android.lib.scale.ScaleLinearLayout>
+            </ScrollView>
+
+            <cn.gavinliu.android.lib.scale.ScaleRelativeLayout
+                android:id="@+id/relativeLayout19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:adSize="SMART_BANNER"
+                    app:adUnitId="@string/admob_id" />
+
+            </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+        </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/ballScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/appBarLayout"
+            android:background="@color/cardview_light_background">
+
+            <cn.gavinliu.android.lib.scale.ScaleLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/appBarLayout"
+                android:orientation="horizontal"
+                tools:ignore="ObsoleteLayoutParam">
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/myborder_1"
+                    android:drawableTop="@drawable/icon_mlb"
+                    android:padding="5dp"
+                    android:text="棒球"
+
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/myborder_1"
+                    android:drawableTop="@drawable/icon_nba"
+                    android:padding="5dp"
+                    android:text="籃球"
+
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/myborder_1"
+                    android:drawableTop="@drawable/icon_foot"
+                    android:padding="5dp"
+                    android:text="足球"
+
+                    tools:ignore="ButtonStyle,HardcodedText" />
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/myborder_1"
+                    android:drawableTop="@drawable/icon_pan"
+                    android:padding="5dp"
+                    android:text="網球"
+
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/myborder_1"
+                    android:drawableTop="@drawable/icon_ice"
+                    android:padding="5dp"
+                    android:text="冰球"
+
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/myborder_1"
+                    android:drawableTop="@drawable/icon_usafoot"
+                    android:padding="5dp"
+                    android:text="美式足球"
+
+                    tools:ignore="ButtonStyle,HardcodedText" />
+
+
+
+            </cn.gavinliu.android.lib.scale.ScaleLinearLayout>
+        </HorizontalScrollView>
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar3"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#FFC125"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+    </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+</cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
+
+
