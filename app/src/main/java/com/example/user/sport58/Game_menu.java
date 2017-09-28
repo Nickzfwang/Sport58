@@ -502,7 +502,6 @@ public class Game_menu extends AppCompatActivity implements Runnable {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         int j = 0;
-
                         if ((int) dataSnapshot.getChildrenCount() != 0) {
                             game_class = new String[(int) dataSnapshot.getChildrenCount()];
                             for (DataSnapshot ds: dataSnapshot.getChildren()) {
@@ -521,6 +520,7 @@ public class Game_menu extends AppCompatActivity implements Runnable {
                         } else {
                             update.setText(setDateFormat(mYear, mMonth, mDay));
                             game_class[j] = " ";
+                            i=0;
                             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data/"+update.getText().toString()+"/"+ ball_class + "/" + game_class[i]);
                             threads = new Thread(Game_menu.this);
                             threads.start();

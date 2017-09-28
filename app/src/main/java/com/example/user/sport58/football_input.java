@@ -20,11 +20,27 @@ public class football_input {
 
 
         public class ViewHolder extends RecyclerView.ViewHolder {
-            private TextView away, away_message, awaytitle, awayscore, awaysum, away1, away2;
-            private TextView home, home_message, hometitle, homescore, homesum, home1, home2;
-            private TextView big_or_small, gameid, bigsmall_message;
-            private RelativeLayout away_m, home_m, bigsmall_m;
-            private Button show_all;
+            private final TextView away;
+            private final TextView away_message;
+            private final TextView awaytitle;
+            private final TextView awayscore;
+            private final TextView awaysum;
+            private final TextView away1;
+            private final TextView away2;
+            private final TextView home;
+            private final TextView home_message;
+            private final TextView hometitle;
+            private final TextView homescore;
+            private final TextView homesum;
+            private final TextView home1;
+            private final TextView home2;
+            private final TextView big_or_small;
+            private final TextView gameid;
+            private final TextView bigsmall_message;
+            private final RelativeLayout away_m;
+            private final RelativeLayout home_m;
+            private final RelativeLayout bigsmall_m;
+            private final Button show_all;
 
             public ViewHolder(View v) {
                 super(v);

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Sep 27 17:34:38 CST 2017
+#Thu Sep 28 14:16:28 CST 2017
 20.base=C\:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\resources-debug.ap_
 493.base=C\:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\resources-debug.ap_

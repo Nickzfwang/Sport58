@@ -238,8 +238,8 @@ resId[1]= R.drawable.bg_3;
 
 
     //-/會員預測資料多線程載入------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-    private class baseballRunnable implements Runnable {
-        public void run() {
+    private class  baseballRunnable implements Runnable {
+        public  void  run() {
             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data2/"+os.subSequence(0, 10)+"/棒球");
             databaseReference.addValueEventListener(new ValueEventListener() {
                 @Override
@@ -530,7 +530,7 @@ resId[1]= R.drawable.bg_3;
                 Toasty.success(menu.this, "已登出", Toast.LENGTH_SHORT, true).show();
                 logout.setText("註冊/登入");
                 finish();
-                startActivity(new Intent(menu.this, login.class));
+                startActivity(new Intent(menu.this, menu.class));
             } else {
 
                 Intent intent = new Intent();

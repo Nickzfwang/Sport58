@@ -8,12 +8,12 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\color\\abc_btn_colored_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
         "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",

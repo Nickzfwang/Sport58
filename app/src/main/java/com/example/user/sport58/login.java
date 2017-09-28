@@ -49,13 +49,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-
-import javax.crypto.BadPaddingException;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
-
 import cn.gavinliu.android.lib.scale.config.ScaleConfig;
 
 
@@ -359,7 +352,7 @@ public class login extends AppCompatActivity implements Runnable {
                                     pb4.setVisibility(View.GONE);
                                     break;
                                 } else {
-                                    //密碼加密
+                                    //密碼解密
                                     String passmd5 = MD5.MD5(password);
                                     String encryptmd5 = MD5.encryptmd5(passmd5);
                                     //

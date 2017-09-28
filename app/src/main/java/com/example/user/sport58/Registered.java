@@ -11,7 +11,6 @@ import android.os.Bundle;
 
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -135,11 +134,17 @@ public class Registered extends AppCompatActivity {
                         if (toast != null) {
                             toast.cancel();
                         } //讓訊息不要延遲
-                        //密碼加密
+                        //密碼、信箱、電話、姓名加密
                         String passmd5 = MD5.MD5(passwordString);
-                        String encryptmd5 = MD5.encryptmd5(passmd5);
+                        String encryptPassMd5 = MD5.encryptmd5(passmd5);
+                        String emailmd5 = MD5.MD5(emailString);
+                        String encryptEmailMd5 = MD5.encryptmd5(emailmd5);
+                        String phonemd5 = MD5.MD5(phoneString);
+                        String encryptPhoneMd5 = MD5.encryptmd5(phonemd5);
+                        String realnamemd5 = MD5.MD5(realnameString);
+                        String encryptRealnameMd5 = MD5.encryptmd5(realnamemd5);
                         //
-                        WriteRegisteredData.AddData(account_numberString, nameString, encryptmd5, realnameString, phoneString, emailString);
+                        WriteRegisteredData.AddData(account_numberString, nameString, encryptPassMd5, encryptRealnameMd5, encryptPhoneMd5, encryptEmailMd5);
                         Toasty.success(Registered.this, "註冊成功!", Toast.LENGTH_SHORT, true).show();
                         finish();
                         //初始化Intent物件
