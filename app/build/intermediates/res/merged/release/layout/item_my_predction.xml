@@ -13,6 +13,27 @@
         android:layout_height="match_parent"
         android:background="@drawable/predction_tab">
 
+        <ImageView
+            android:id="@+id/pr_win"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@+id/pr_top_title"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/pr_top_title"
+            android:layout_toStartOf="@+id/pr_top_title"
+            android:background="@drawable/win2" />
+
+        <ImageView
+            android:id="@+id/pr_lose"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@+id/pr_top_title"
+            android:layout_marginLeft="6dp"
+            android:layout_toEndOf="@+id/pr_top_title"
+            android:layout_toRightOf="@+id/pr_top_title"
+            android:background="@drawable/lose2" />
+
         <TextView
             android:id="@+id/pr_top_title"
             android:layout_width="wrap_content"

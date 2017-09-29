@@ -59,7 +59,6 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Openen op telefoon"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Inloggen"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Inloggen met Google"</string>
-    <string name="messenger_send_button_text">Verzenden</string>
     <string msgid="368094699078615544" name="s1">"Afbeelding opslaan"</string>
     <string msgid="4550830452390689489" name="s2">"Advertentie toestaan om afbeelding op te slaan in fotogalerij?"</string>
     <string msgid="2435407834265420668" name="s3">"Accepteren"</string>

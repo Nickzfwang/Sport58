@@ -16,12 +16,12 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_smart_device_dialog_fragment.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1d85556fd1a1a542b4f081dd63f7e181f20cae28\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
@@ -45,7 +45,7 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_small.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\97bacd1315f02a5ffe9ba8206e9c86f5425f69d4\\output\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_dataquery.xml",
@@ -125,7 +125,7 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1d85556fd1a1a542b4f081dd63f7e181f20cae28\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_sheet_dialog.xml",
@@ -169,11 +169,11 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_large.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\97bacd1315f02a5ffe9ba8206e9c86f5425f69d4\\output\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_activity_layout.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_activity_layout.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1d85556fd1a1a542b4f081dd63f7e181f20cae28\\output\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
@@ -197,7 +197,7 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_round.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_white_round.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\97bacd1315f02a5ffe9ba8206e9c86f5425f69d4\\output\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_registered.xml",
@@ -229,7 +229,7 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\a717d1c918f8b5d5ee650df551a685a3cd98e12f\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar.xml",
@@ -265,7 +265,7 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_large.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_white_large.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\97bacd1315f02a5ffe9ba8206e9c86f5425f69d4\\output\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -277,7 +277,7 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_login_fragment.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\com_facebook_login_fragment.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\1d85556fd1a1a542b4f081dd63f7e181f20cae28\\output\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_gameover_iceball.xml",
@@ -293,7 +293,7 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_small.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_white_small.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\97bacd1315f02a5ffe9ba8206e9c86f5425f69d4\\output\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
@@ -341,6 +341,6 @@
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_round.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\766f14e24e183054b321ecb157fa49a422452c6f\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+        "source": "C:\\Users\\USER\\.android\\build-cache\\97bacd1315f02a5ffe9ba8206e9c86f5425f69d4\\output\\res\\layout\\messenger_button_send_blue_round.xml"
     }
 ]

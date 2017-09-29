@@ -59,7 +59,6 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no telemóvel"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sessão"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sessão com o Google"</string>
-    <string name="messenger_send_button_text">Enviar</string>
     <string msgid="368094699078615544" name="s1">"Guardar imagem"</string>
     <string msgid="4550830452390689489" name="s2">"Pretende permitir ao anúncio armazenar uma imagem na galeria de imagens?"</string>
     <string msgid="2435407834265420668" name="s3">"Aceitar"</string>

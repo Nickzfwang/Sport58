@@ -12,10 +12,10 @@ public final class R {
         public static final int shimmer_color = 0x7f010177;
     }
     public static final class color {
-        public static final int shimmer_color = 0x7f0d0065;
+        public static final int shimmer_color = 0x7f0d0064;
     }
     public static final class string {
-        public static final int app_name = 0x7f080053;
+        public static final int app_name = 0x7f080052;
     }
     public static final class styleable {
         public static final int[] ShimmerLayout = { 0x7f010177, 0x7f010178 };

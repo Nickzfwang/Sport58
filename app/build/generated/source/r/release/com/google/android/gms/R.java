@@ -19,17 +19,17 @@ public final class R {
         public static final int scopeUris = 0x7f01017b;
     }
     public static final class color {
-        public static final int common_google_signin_btn_text_dark = 0x7f0d0081;
+        public static final int common_google_signin_btn_text_dark = 0x7f0d0080;
         public static final int common_google_signin_btn_text_dark_default = 0x7f0d0001;
         public static final int common_google_signin_btn_text_dark_disabled = 0x7f0d0002;
         public static final int common_google_signin_btn_text_dark_focused = 0x7f0d0003;
         public static final int common_google_signin_btn_text_dark_pressed = 0x7f0d0004;
-        public static final int common_google_signin_btn_text_light = 0x7f0d0082;
+        public static final int common_google_signin_btn_text_light = 0x7f0d0081;
         public static final int common_google_signin_btn_text_light_default = 0x7f0d0005;
         public static final int common_google_signin_btn_text_light_disabled = 0x7f0d0006;
         public static final int common_google_signin_btn_text_light_focused = 0x7f0d0007;
         public static final int common_google_signin_btn_text_light_pressed = 0x7f0d0008;
-        public static final int common_google_signin_btn_tint = 0x7f0d0083;
+        public static final int common_google_signin_btn_tint = 0x7f0d0082;
     }
     public static final class drawable {
         public static final int common_full_open_on_phone = 0x7f020083;
@@ -61,15 +61,15 @@ public final class R {
         public static final int button = 0x7f0e0065;
         public static final int center = 0x7f0e002f;
         public static final int dark = 0x7f0e005d;
-        public static final int date = 0x7f0e01db;
+        public static final int date = 0x7f0e01dd;
         public static final int icon_only = 0x7f0e005a;
         public static final int light = 0x7f0e005e;
         public static final int none = 0x7f0e0017;
         public static final int normal = 0x7f0e0019;
         public static final int radio = 0x7f0e0088;
         public static final int standard = 0x7f0e005b;
-        public static final int text = 0x7f0e01d6;
-        public static final int text2 = 0x7f0e01d4;
+        public static final int text = 0x7f0e01d8;
+        public static final int text2 = 0x7f0e01d6;
         public static final int toolbar = 0x7f0e00a7;
         public static final int wide = 0x7f0e005c;
         public static final int wrap_content = 0x7f0e002c;
@@ -95,13 +95,13 @@ public final class R {
         public static final int common_open_on_phone = 0x7f080038;
         public static final int common_signin_button_text = 0x7f080039;
         public static final int common_signin_button_text_long = 0x7f08003a;
-        public static final int fcm_fallback_notification_channel_label = 0x7f08005b;
-        public static final int s1 = 0x7f08003c;
-        public static final int s2 = 0x7f08003d;
-        public static final int s3 = 0x7f08003e;
-        public static final int s4 = 0x7f08003f;
-        public static final int s5 = 0x7f080040;
-        public static final int s6 = 0x7f080041;
+        public static final int fcm_fallback_notification_channel_label = 0x7f08005a;
+        public static final int s1 = 0x7f08003b;
+        public static final int s2 = 0x7f08003c;
+        public static final int s3 = 0x7f08003d;
+        public static final int s4 = 0x7f08003e;
+        public static final int s5 = 0x7f08003f;
+        public static final int s6 = 0x7f080040;
     }
     public static final class style {
         public static final int Theme_IAPTheme = 0x7f0a013a;

@@ -15,7 +15,7 @@ public final class R {
         public static final int width = 0x7f0e004d;
     }
     public static final class string {
-        public static final int app_name = 0x7f080053;
+        public static final int app_name = 0x7f080052;
     }
     public static final class styleable {
         public static final int[] ScaleLayout = { 0x01010095, 0x010100d5, 0x010100d6, 0x010100d7, 0x010100d8, 0x010100d9, 0x010100f4, 0x010100f5, 0x010100f6, 0x010100f7, 0x010100f8, 0x010100f9, 0x010100fa, 0x010103b3, 0x010103b4, 0x010103b5, 0x010103b6, 0x7f010146 };

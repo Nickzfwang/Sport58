@@ -59,7 +59,6 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"스마트폰에서 열기"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"로그인"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
-    <string name="messenger_send_button_text">보내기</string>
     <string msgid="368094699078615544" name="s1">"이미지 저장"</string>
     <string msgid="4550830452390689489" name="s2">"광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?"</string>
     <string msgid="2435407834265420668" name="s3">"동의"</string>

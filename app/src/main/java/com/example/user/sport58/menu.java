@@ -1,11 +1,16 @@
 package com.example.user.sport58;
 
 import android.app.Activity;
+import android.app.DownloadManager;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -69,6 +74,10 @@ public class menu extends AppCompatActivity implements Runnable {
     private  String sport58_user;
     private String appVersion;
     private int once=0;
+
+
+
+
     //----------------------------------------------------------------------------------------------------------------------//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -107,12 +116,14 @@ public class menu extends AppCompatActivity implements Runnable {
                             "發現新版本\n"+"\n"+
                             "舊版本:"+appVersion+"\n"+
                             "新版本:"+dataSnapshot.child("versionName").getValue().toString());
-                    terms.setPositiveButton("更新!", new DialogInterface.OnClickListener() {
+                    terms.setPositiveButton("前往更新!", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            Uri uri = Uri.parse("https://drive.google.com/uc?authuser=0&id=0Byle8vgkmUROODRuNjloOFlFN3c&export=download");
+                            Uri uri = Uri.parse("https://drive.google.com/open?id=0Byle8vgkmURObE8yb0I0MnlWdHc");
                             Intent apk = new Intent(Intent.ACTION_VIEW, uri);
                             startActivity(apk);
+
+
                             once++;
                         }
                     });
@@ -674,6 +685,9 @@ resId[1]= R.drawable.bg_3;
     }
 
     //------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
 
 
 }
