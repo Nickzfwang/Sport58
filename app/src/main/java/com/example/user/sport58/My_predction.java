@@ -6,6 +6,7 @@ import android.app.Dialog;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.ActionBar;
@@ -32,6 +33,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.jrummyapps.android.animations.Technique;
+import com.wooplr.spotlight.utils.SpotlightSequence;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -180,6 +182,7 @@ public class My_predction extends AppCompatActivity implements Runnable {
     private final Button.OnClickListener do_baseball = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
+
             time = "";
             Calendar mCal = Calendar.getInstance();
             mCal.setTimeZone(TimeZone.getTimeZone("GMT+8"));
@@ -208,6 +211,9 @@ public class My_predction extends AppCompatActivity implements Runnable {
     private final Button.OnClickListener do_basketball = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
+
+
+
             time = "";
             Calendar mCal = Calendar.getInstance();
             mCal.setTimeZone(TimeZone.getTimeZone("GMT+8"));
@@ -236,6 +242,8 @@ public class My_predction extends AppCompatActivity implements Runnable {
     private final Button.OnClickListener do_football = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
+
+
             time = "";
             Calendar mCal = Calendar.getInstance();
             mCal.setTimeZone(TimeZone.getTimeZone("GMT+8"));
@@ -266,6 +274,8 @@ public class My_predction extends AppCompatActivity implements Runnable {
     private final Button.OnClickListener do_tennis = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
+
+
             time = "";
             Calendar mCal = Calendar.getInstance();
             mCal.setTimeZone(TimeZone.getTimeZone("GMT+8"));
@@ -295,6 +305,8 @@ public class My_predction extends AppCompatActivity implements Runnable {
     private final Button.OnClickListener do_iceball = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
+
+
             time = "";
             Calendar mCal = Calendar.getInstance();
             mCal.setTimeZone(TimeZone.getTimeZone("GMT+8"));
@@ -324,6 +336,9 @@ public class My_predction extends AppCompatActivity implements Runnable {
     private final Button.OnClickListener do_usafootball = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
+
+
+
             time = "";
             Calendar mCal = Calendar.getInstance();
             mCal.setTimeZone(TimeZone.getTimeZone("GMT+8"));
@@ -352,6 +367,9 @@ public class My_predction extends AppCompatActivity implements Runnable {
     private final ImageView.OnClickListener do_back = new ImageView.OnClickListener() {
         @Override
         public void onClick(View view) {
+
+
+
             textview_top.setText("我的預測");
             textview_end.setVisibility(View.GONE);
             img_end.setVisibility(View.GONE);

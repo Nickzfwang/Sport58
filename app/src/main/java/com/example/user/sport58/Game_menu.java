@@ -9,12 +9,14 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.RequiresApi;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.format.DateFormat;
+import android.util.Log;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.DatePicker;
@@ -45,6 +47,7 @@ import java.util.Calendar;
 import java.util.TimeZone;
 
 import cn.gavinliu.android.lib.scale.config.ScaleConfig;
+import es.dmoral.toasty.Toasty;
 
 
 public class Game_menu extends AppCompatActivity implements Runnable {
@@ -52,9 +55,9 @@ public class Game_menu extends AppCompatActivity implements Runnable {
     private  int i;
     private static Activity game_menu;
     private static DatabaseReference databaseReference;
-    private ProgressBar pb3;
+    private static ProgressBar pb3;
     private static RecyclerView card;
-    private ImageView bg_game;
+    private static ImageView bg_game;
     private game_data contacts;
     private static TextView textdate, gameid, adate2, vs, nclet, ncletpa, ncbigs, ncbigspa, nhlet, nhletpa, nhbigs, nhbigspa, sclet, scletpa, scnoletpa, scbigs, scbigspa, shlet, shletpa, shnoletpa, shbigs, shbigspa;
     private  String ball_class;
@@ -74,6 +77,7 @@ public class Game_menu extends AppCompatActivity implements Runnable {
     private DatePickerDialog datePickerDialog;
     private  Button update;
     private Toast toast;
+
     //------------------------------------------------------------------------------------------//
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
@@ -102,6 +106,7 @@ public class Game_menu extends AppCompatActivity implements Runnable {
         game_poker = (RelativeLayout) findViewById(R.id.game_poker);
         textdate = (TextView) findViewById(R.id.textView);
         textdate.setText("");
+
         bg_game = (ImageView) findViewById(R.id.bg_game);
         pb3 = (ProgressBar) findViewById(R.id.progressBar3);
         Button left_bn = (Button) findViewById(R.id.left_btn);
@@ -167,7 +172,11 @@ public class Game_menu extends AppCompatActivity implements Runnable {
         threads = new Thread(Game_menu.this);
         threads.start();
 
+
     }
+
+
+
     //聯賽或杯賽搜尋------------------------------------------------------------------------------------------------------------------------------//
     private final SearchView.OnQueryTextListener do_search = new SearchView.OnQueryTextListener() {
         @Override
@@ -193,6 +202,12 @@ public class Game_menu extends AppCompatActivity implements Runnable {
         }
     };
     ///--------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
+
+
+
 
     //賽事日期按鈕--------------------------------------------------------------------------------------------------------------------///////
     private final Button.OnClickListener do_date = new Button.OnClickListener() {
@@ -396,84 +411,95 @@ public class Game_menu extends AppCompatActivity implements Runnable {
 
             @Override
             public void onBindViewHolder(final ViewHolder holder, final int position) {
-
-                if (String_time.time(mData.get(position).getAdate()) == 1) {
-                    holder.star.setText("未開賽");
-                } else {
-                    if (mData.get(position).getStatus().matches("completed")) {
-                        holder.star.setText("已完賽");
+                if(mData.get(position).getStatus()!=null) {
+                    if (String_time.time(mData.get(position).getAdate()) == 1) {
+                        holder.star.setText("未開賽");
                     } else {
-                        holder.star.setText("已開賽");
+                        if (mData.get(position).getStatus().matches("completed")) {
+                            holder.star.setText("已完賽");
+                        } else {
+                            holder.star.setText("已開賽");
+                        }
                     }
-                }
-                holder.home.setText("(主)" + mData.get(position).getHome());
-                holder.away.setText("(客)" + mData.get(position).getAway());
-                holder.ni.setText(mData.get(position).getGameid());
-                holder.adate.setText(mData.get(position).getAdate());
-                holder.odds.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
+                    holder.home.setText("(主)" + mData.get(position).getHome());
+                    holder.away.setText("(客)" + mData.get(position).getAway());
+                    holder.ni.setText(mData.get(position).getGameid());
+                    holder.adate.setText(mData.get(position).getAdate());
+                    holder.odds.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            game_poker.setVisibility(View.VISIBLE);
+                            tab.setVisibility(View.VISIBLE);
+                            card.setVisibility(View.GONE);
+                            //翻牌特效
+                            Animation animation = AnimationUtils.loadAnimation(game_menu, R.anim.back_scale);
 
+                            animation.setAnimationListener(new Animation.AnimationListener() {
+                                @Override
+                                public void onAnimationStart(Animation animation) {}
 
-                        game_poker.setVisibility(View.VISIBLE);
-                        tab.setVisibility(View.VISIBLE);
-                        card.setVisibility(View.GONE);
-                        //翻牌特效
-                        Animation animation = AnimationUtils.loadAnimation(game_menu, R.anim.back_scale);
+                                @Override
+                                public void onAnimationRepeat(Animation animation) {}
 
-                        animation.setAnimationListener(new Animation.AnimationListener() {
-                            @Override
-                            public void onAnimationStart(Animation animation) {}
+                                @Override
+                                public void onAnimationEnd(Animation animation) {
+                                    if (bool) {
 
-                            @Override
-                            public void onAnimationRepeat(Animation animation) {}
+                                        game_poker.setBackgroundResource(R.drawable.poker_back);
+                                        bool = false;
+                                    } else {
 
-                            @Override
-                            public void onAnimationEnd(Animation animation) {
-                                if (bool) {
+                                        game_poker.setBackgroundResource(R.drawable.poker_front);
+                                        bool = true;
+                                    }
+                                    //通过AnimationUtils得到动画配置文件(/res/anim/front_scale.xml),然后在把动画交给ImageView
 
-                                    game_poker.setBackgroundResource(R.drawable.poker_back);
-                                    bool = false;
-                                } else {
+                                    game_poker.startAnimation(AnimationUtils.loadAnimation(game_menu, R.anim.front_scale));
+                                    tab.startAnimation(AnimationUtils.loadAnimation(game_menu, R.anim.front_scale));
 
-                                    game_poker.setBackgroundResource(R.drawable.poker_front);
-                                    bool = true;
                                 }
-                                //通过AnimationUtils得到动画配置文件(/res/anim/front_scale.xml),然后在把动画交给ImageView
+                            });
+                            game_poker.startAnimation(animation);
+                            tab.startAnimation(animation);
 
-                                game_poker.startAnimation(AnimationUtils.loadAnimation(game_menu, R.anim.front_scale));
-                                tab.startAnimation(AnimationUtils.loadAnimation(game_menu, R.anim.front_scale));
+                            //
+                            gameid.setText(mData.get(position).getGameid());
+                            adate2.setText(mData.get(position).getAdate());
+                            vs.setText("(客) " + mData.get(position).getAway() + " " + "v.s" + " " + mData.get(position).getHome() + " (主)");
+                            nclet.setText(mData.get(position).getNclet());
+                            ncletpa.setText(mData.get(position).getNcletpa());
+                            ncbigs.setText(mData.get(position).getNcbigs());
+                            ncbigspa.setText(mData.get(position).getNcbigspa());
+                            nhlet.setText(mData.get(position).getNhlet());
+                            nhletpa.setText(mData.get(position).getNhletpa());
+                            nhbigs.setText(mData.get(position).getNhbigs());
+                            nhbigspa.setText(mData.get(position).getNhbigspa());
+                            sclet.setText(mData.get(position).getSclet());
+                            scletpa.setText(mData.get(position).getScletpa());
+                            scnoletpa.setText(mData.get(position).getScnotletpa());
+                            scbigs.setText(mData.get(position).getScbigs());
+                            scbigspa.setText(mData.get(position).getScbigspa());
+                            shlet.setText(mData.get(position).getShlet());
+                            shletpa.setText(mData.get(position).getShletpa());
+                            shnoletpa.setText(mData.get(position).getShnotletpa());
+                            shbigs.setText(mData.get(position).getShbigs());
+                            shbigspa.setText(mData.get(position).getShbigspa());
 
-                            }
-                        });
-                        game_poker.startAnimation(animation);
-                        tab.startAnimation(animation);
+                        }
+                    });
 
-                        //
-                        gameid.setText(mData.get(position).getGameid());
-                        adate2.setText(mData.get(position).getAdate());
-                        vs.setText("(客) " + mData.get(position).getAway() + " " + "v.s" + " " + mData.get(position).getHome() + " (主)");
-                        nclet.setText(mData.get(position).getNclet());
-                        ncletpa.setText(mData.get(position).getNcletpa());
-                        ncbigs.setText(mData.get(position).getNcbigs());
-                        ncbigspa.setText(mData.get(position).getNcbigspa());
-                        nhlet.setText(mData.get(position).getNhlet());
-                        nhletpa.setText(mData.get(position).getNhletpa());
-                        nhbigs.setText(mData.get(position).getNhbigs());
-                        nhbigspa.setText(mData.get(position).getNhbigspa());
-                        sclet.setText(mData.get(position).getSclet());
-                        scletpa.setText(mData.get(position).getScletpa());
-                        scnoletpa.setText(mData.get(position).getScnotletpa());
-                        scbigs.setText(mData.get(position).getScbigs());
-                        scbigspa.setText(mData.get(position).getScbigspa());
-                        shlet.setText(mData.get(position).getShlet());
-                        shletpa.setText(mData.get(position).getShletpa());
-                        shnoletpa.setText(mData.get(position).getShnotletpa());
-                        shbigs.setText(mData.get(position).getShbigs());
-                        shbigspa.setText(mData.get(position).getShbigspa());
+                }else{
+                    bg_game.setVisibility(View.GONE);
+                    card.setVisibility(View.GONE);
+                    pb3.setVisibility(View.VISIBLE);
+                    Toasty.warning(game_menu, "賽事正在更新，請返回在進入試試!", Toast.LENGTH_SHORT, true).show();
+                }
 
-                    }
-                });
+
+
+
+
+
 
             }
 
@@ -557,6 +583,15 @@ public class Game_menu extends AppCompatActivity implements Runnable {
         }
     }
     //---------------------------------------------------------------------------------------------------------//
+
+
+
+
+
+
+
+
+
 
 
 }

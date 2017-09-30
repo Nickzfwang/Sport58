@@ -248,6 +248,10 @@
         "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lib_update_app_dialog.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\layout\\lib_update_app_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_game_menu.xml",
         "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\layout\\item_game_menu.xml"
     },

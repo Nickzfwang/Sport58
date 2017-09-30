@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\xml\\new_app_file_paths.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\xml\\new_app_file_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\xml\\backup_descriptor.xml",
         "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
     },

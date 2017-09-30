@@ -89,7 +89,7 @@ public class Registered extends AppCompatActivity {
         realname.addTextChangedListener(textWatcher);
         phone.addTextChangedListener(textWatcher);
         email.addTextChangedListener(textWatcher);
-        Button insert = (Button) findViewById(R.id.prediction);
+        Button insert = (Button) findViewById(R.id.predction);
         Button cancel = (Button) findViewById(R.id.button3);
         Button terms = (Button) findViewById(R.id.button5);
         check = (CheckBox) findViewById(R.id.checkBox);

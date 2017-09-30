@@ -107,13 +107,7 @@ public class tennis_input {
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
 
-            if ((int)(holder.itemView.getTag()) == position) {
-                //   //TODO: 这里处理对应position的view设置
 
-            } else {
-                //view被recycled了，重新设置view
-
-            }
 
         }
 

@@ -948,6 +948,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\USER\AndroidStudioProjects\Sport58\Spotlight-library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="425e9107f32191f5f7a5671e5574548b6b625648">
+        <dex dex="C:\Users\USER\AndroidStudioProjects\Sport58\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_c87fbce09f1fdbd47ed3c8e03636045b3efac03a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\USER\.android\build-cache\1d85556fd1a1a542b4f081dd63f7e181f20cae28\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -981,6 +990,15 @@
         revision="26.0.1"
         sha1="6dab70a8b2abd3af4f206fcfbf7c816eaa14db28">
         <dex dex="C:\Users\USER\AndroidStudioProjects\Sport58\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c4ff59581ae0564ab5c3323fe06f8e3a57538c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\.android\build-cache\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="92262ef61ab4f3d84701745e3edb82d4b1d71894">
+        <dex dex="C:\Users\USER\AndroidStudioProjects\Sport58\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4862ecebeb5dca75b5e504618c6a8e871daf199\classes.dex" />
     </item>
     <item
         is-multidex="true"

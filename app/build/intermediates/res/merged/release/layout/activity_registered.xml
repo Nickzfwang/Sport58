@@ -316,7 +316,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/prediction">
+            android:layout_below="@+id/predction">
 
             <Button
                 android:id="@+id/button3"
@@ -336,7 +336,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/prediction">
+            android:layout_below="@+id/predction">
 
             <Button
                 android:id="@+id/button6"
@@ -344,14 +344,14 @@
                 android:layout_height="40dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_below="@+id/prediction"
+                android:layout_below="@+id/predction"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/registered_06" />
 
         </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
 
         <Button
-            android:id="@+id/prediction"
+            android:id="@+id/predction"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_alignParentLeft="true"

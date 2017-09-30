@@ -10,10 +10,13 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.support.v7.app.AlertDialog;
 import android.text.format.DateFormat;
@@ -25,6 +28,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
@@ -42,6 +46,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.wooplr.spotlight.SpotlightView;
+import com.wooplr.spotlight.prefs.PreferencesManager;
+import com.wooplr.spotlight.utils.SpotlightSequence;
 
 import java.util.Calendar;
 import java.util.TimeZone;
@@ -58,7 +65,7 @@ public class menu extends AppCompatActivity implements Runnable {
     private FirebaseAuth mAuth;
     private  DatabaseReference databaseReference;
     private  Button logout, baseball_bn, basketball_bn, football_bn, usafootball_bn, tennis_bn, iceball_bn;
-    private  Thread thr, thr3, thr4, thr5, thr6, thr7;
+    private  Thread thr, thr3, thr4, thr5, thr6, thr7,thr8;
     private  String[] baseball = new String[50];
     private  String[] basketball = new String[50];
     private  String[] football = new String[50];
@@ -74,8 +81,10 @@ public class menu extends AppCompatActivity implements Runnable {
     private  String sport58_user;
     private String appVersion;
     private int once=0;
-
-
+    private boolean isRevealEnabled = true;
+    private SpotlightView spotLight;
+    private HorizontalScrollView ballScrollView;
+    private Button  lookdata,my_predction,web,predction;
 
 
     //----------------------------------------------------------------------------------------------------------------------//
@@ -176,10 +185,11 @@ resId[1]= R.drawable.bg_3;
         setTitle("首頁");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar3);
         setSupportActionBar(toolbar);
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.setDrawerListener(new MyDrawerListener());
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
         toggle.syncState();
         MobileAds.initialize(this, "ca-app-pub-1543324606848385/3517415095");
         AdView mAdView = (AdView) findViewById(R.id.adView);
@@ -188,6 +198,7 @@ resId[1]= R.drawable.bg_3;
         mAdView.loadAd(adRequest);
         mainclose = this;
         //元件宣告-------------------------------------------------------------------------------//
+        ballScrollView=(HorizontalScrollView)findViewById(R.id.ballScrollView);
         flipper = (ViewFlipper) findViewById(R.id.flipper);
         Button btn1 = (Button) findViewById(R.id.login);
         baseball_bn = (Button) findViewById(R.id.btn1);
@@ -196,15 +207,14 @@ resId[1]= R.drawable.bg_3;
         usafootball_bn = (Button) findViewById(R.id.btn4);
         tennis_bn = (Button) findViewById(R.id.btn5);
         iceball_bn = (Button) findViewById(R.id.btn6);
-        Button lookdata = (Button) findViewById(R.id.lookdata);
-        Button my_predction = (Button) findViewById(R.id.my_prediction);
-        Button web = (Button) findViewById(R.id.web);
-        Button prediction = (Button) findViewById(R.id.prediction);
-
+        lookdata = (Button) findViewById(R.id.lookdata);
+        my_predction = (Button) findViewById(R.id.my_prediction);
+           web = (Button) findViewById(R.id.web);
+          predction = (Button) findViewById(R.id.predction);
         btn1.setOnClickListener(dobtn1);
         web.setOnClickListener(do_web);
         lookdata.setOnClickListener(do_lookdata);
-        prediction.setOnClickListener(do_prediction);
+        predction.setOnClickListener(do_prediction);
         my_predction.setOnClickListener(do_mypredction);
         baseball_bn.setOnClickListener(dobaseball_bn);
         basketball_bn.setOnClickListener(dobasketball_bn);
@@ -213,14 +223,10 @@ resId[1]= R.drawable.bg_3;
         tennis_bn.setOnClickListener(dotennis_bn);
         iceball_bn.setOnClickListener(doiceball_bn);
 
-        //----------------------------------------------------------------------------------------//
 
-        baseballRunnable h1 = new baseballRunnable();
-        thr = new Thread(h1);
-        thr.start();
-        basketballRunnable h3 = new basketballRunnable();
-        thr3 = new Thread(h3);
-        thr3.start();
+
+
+        //----------------------------------------------------------------------------------------//
         footballRunnable h4 = new footballRunnable();
         thr4 = new Thread(h4);
         thr4.start();
@@ -233,26 +239,73 @@ resId[1]= R.drawable.bg_3;
         usafootballRunnable h7 = new usafootballRunnable();
         thr7 = new Thread(h7);
         thr7.start();
+        baseballRunnable h1 = new baseballRunnable();
+        thr = new Thread(h1);
+        thr.start();
+        basketballRunnable h3 = new basketballRunnable();
+        thr3 = new Thread(h3);
+        thr3.start();
+
 
         //首頁輪播線程
         Thread threads = new Thread(menu.this);
         threads.start();
         //
-
-
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                SpotlightSequence.getInstance(menu.this,null)
+                        .addSpotlight(ballScrollView, "賽事", "這裡可以看賽事及賠率", "1")
+                        .startSequence();
+            }
+        },300);
 
     }
 
+//------------------------------------------------------------------------------------------------------------------//
+    /** drawer的監聽 */
+    private class MyDrawerListener implements DrawerLayout.DrawerListener {
+        @Override
+        public void onDrawerOpened(View drawerView) {// 打開drawer
+            new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                @Override
+                public void run() {
 
 
+                    SpotlightSequence.getInstance(menu.this,null)
+                            .addSpotlight(web, "運動58網站 ", "這裡可以前往運動58網站", "2")
+                            .addSpotlight(predction,"預測賽事", "這裡可以前往預測賽事", "3")
+                            .addSpotlight(my_predction,"我的預測", "這裡可以觀看您的預測", "4")
+                            .addSpotlight(lookdata, "看數據", "這裡可以觀看賽事結果及賽事資訊", "5")
+                            .addSpotlight(logout, "註冊/登入", "這裡可以註冊58APP會員及登入", "6")
+                            .startSequence();
+                }
+            },100);
+        }
 
+        @Override
+        public void onDrawerClosed(View drawerView) {// 關閉drawer
+
+        }
+
+        @Override
+        public void onDrawerSlide(View drawerView, float slideOffset) {// drawer滑動的回调
+
+        }
+
+        @Override
+        public void onDrawerStateChanged(int newState) {// drawer狀態改變的回调
+
+        }
+    }
+    //------------------------------------------------------------------------------------------------------------------//
 
 
     //-/會員預測資料多線程載入------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     private class  baseballRunnable implements Runnable {
         public  void  run() {
             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data2/"+os.subSequence(0, 10)+"/棒球");
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     int i = 0;
@@ -261,7 +314,6 @@ resId[1]= R.drawable.bg_3;
                         baseball[i] = "";
                         for (DataSnapshot ds: dataSnapshot.getChildren()) {
                             baseball[i] = ds.getValue().toString();
-
                             i++;
                         }
                     } else {
@@ -284,7 +336,7 @@ resId[1]= R.drawable.bg_3;
         public void run() {
 
             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data2/"+os.subSequence(0, 10)+"/籃球");
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     int i = 0;
@@ -319,7 +371,7 @@ resId[1]= R.drawable.bg_3;
         public void run() {
             DatabaseReference databaseReference;
             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data2/"+os.subSequence(0, 10)+"/足球");
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     int i = 0;
@@ -351,7 +403,7 @@ resId[1]= R.drawable.bg_3;
     private class tennisRunnable implements Runnable {
         public void run() {
             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data2/"+os.subSequence(0, 10)+"/網球");
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     int i = 0;
@@ -381,7 +433,7 @@ resId[1]= R.drawable.bg_3;
     private class iceballRunnable implements Runnable {
         public void run() {
             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data2/"+os.subSequence(0, 10)+"/冰球");
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     int i = 0;
@@ -412,7 +464,7 @@ resId[1]= R.drawable.bg_3;
     private class usafootballRunnable implements Runnable {
         public void run() {
             databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data2/"+os.subSequence(0, 10)+"/美式足球");
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     int i = 0;
@@ -685,9 +737,39 @@ resId[1]= R.drawable.bg_3;
     }
 
     //------------------------------------------------------------------------------------------------------------------------------------------------------//
+    //引導指示-----------------------------------------------------------------------------------------////
+    private void showIntro(View view, String usageId) {
+        spotLight = new SpotlightView.Builder(this)
+                .introAnimationDuration(400)
+                .enableRevealAnimation(isRevealEnabled)
+                .performClick(true)
+                .fadeinTextDuration(400)
+                //.setTypeface(FontUtil.get(this, "RemachineScript_Personal_Use"))
+                .headingTvColor(Color.parseColor("#eb273f"))
+                .headingTvSize(32)
+                .headingTvText("Game")
+                .subHeadingTvColor(Color.parseColor("#ffffff"))
+                .subHeadingTvSize(16)
+                .subHeadingTvText("這裡可以觀看賽事資訊")
+                .maskColor(Color.parseColor("#dc000000"))
+                .target(view)
+                .lineAnimDuration(400)
+                .lineAndArcColor(Color.parseColor("#eb273f"))
+                .dismissOnTouch(true)
+                .dismissOnBackPress(true)
+                .enableDismissAfterShown(true)
+                .usageId(usageId) //UNIQUE ID
+                .show();
+    }
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
 
+        if(spotLight.isShown()){
+            spotLight.removeSpotlightView(false);//Remove current spotlight view from parent
 
-
-
+        }
+    }
+//-------------------------------------------------------------------------------------------------------//
 
 }

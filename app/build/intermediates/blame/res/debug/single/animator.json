@@ -4,6 +4,10 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\79f839565e0a4f4deabdf926317057df654e357f\\output\\res\\animator\\close_to_overflow.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\animator\\arc_animator.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\Spotlight-library\\build\\intermediates\\bundles\\default\\res\\animator\\arc_animator.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\animator\\overflow_to_close.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\79f839565e0a4f4deabdf926317057df654e357f\\output\\res\\animator\\overflow_to_close.xml"
     }

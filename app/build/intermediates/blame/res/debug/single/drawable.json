@@ -688,6 +688,10 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lib_update_app_info_bg.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\drawable\\lib_update_app_info_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\97bacd1315f02a5ffe9ba8206e9c86f5425f69d4\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
     },
@@ -964,6 +968,10 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\1d85556fd1a1a542b4f081dd63f7e181f20cae28\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\avd_spotlight_arc.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\Spotlight-library\\build\\intermediates\\bundles\\default\\res\\drawable\\avd_spotlight_arc.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\predction_top.png",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\drawable\\predction_top.png"
     },
@@ -994,6 +1002,10 @@
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_line.png",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\drawable\\text_line.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_spotlight_arc.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\Spotlight-library\\build\\intermediates\\bundles\\default\\res\\drawable\\ic_spotlight_arc.xml"
     },
     {
         "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",

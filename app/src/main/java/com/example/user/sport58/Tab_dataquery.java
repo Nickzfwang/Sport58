@@ -85,7 +85,7 @@ public class Tab_dataquery extends Fragment {
     public class dataqueryRunnable implements Runnable {
         public void run() {
             DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("data_query/"+os.subSequence(0, 10));
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                 @Override
@@ -101,7 +101,6 @@ public class Tab_dataquery extends Fragment {
 
                     if (myDataset.isEmpty()) {
                         bg_game.setVisibility(View.VISIBLE);
-                        bg_game.setImageResource(R.drawable.nogame);
                         ps7.setVisibility(View.GONE);
 
                     } else {
@@ -112,6 +111,7 @@ public class Tab_dataquery extends Fragment {
                         mList.setLayoutManager(layoutManager);
                         mList.setAdapter(myAdapter);
                         Technique.BOUNCE_IN.playOn(mList);
+                        bg_game.setVisibility(View.GONE);
                         ps7.setVisibility(View.GONE);
                     }
                 }

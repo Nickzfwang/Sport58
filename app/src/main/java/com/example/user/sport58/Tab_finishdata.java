@@ -335,7 +335,7 @@ public class Tab_finishdata extends Fragment {
             ps6.setVisibility(View.VISIBLE);
             mList.setVisibility(View.GONE);
             databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/" + tab_ball_class + "/" + game[i]);
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                 @Override
@@ -384,7 +384,7 @@ public class Tab_finishdata extends Fragment {
             ps6.setVisibility(View.VISIBLE);
             mList.setVisibility(View.GONE);
             databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/" + tab_ball_class + "/" + game[i]);
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                 @Override
@@ -431,7 +431,7 @@ public class Tab_finishdata extends Fragment {
             ps6.setVisibility(View.VISIBLE);
             mList.setVisibility(View.GONE);
             databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/"+ tab_ball_class + "/" + game[i]);
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                 @Override
@@ -480,7 +480,7 @@ public class Tab_finishdata extends Fragment {
             ps6.setVisibility(View.VISIBLE);
             mList.setVisibility(View.GONE);
             databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/"+ tab_ball_class + "/" + game[i]);
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                 @Override
@@ -530,7 +530,7 @@ public class Tab_finishdata extends Fragment {
             ps6.setVisibility(View.VISIBLE);
             mList.setVisibility(View.GONE);
             databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/"+ tab_ball_class + "/" + game[i]);
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                 @Override
@@ -579,7 +579,7 @@ public class Tab_finishdata extends Fragment {
             ps6.setVisibility(View.VISIBLE);
             mList.setVisibility(View.GONE);
             databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/"+ tab_ball_class + "/" + game[i]);
-            databaseReference.addValueEventListener(new ValueEventListener() {
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                 @Override
@@ -637,7 +637,7 @@ public class Tab_finishdata extends Fragment {
                     }
 
                     databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/"  + tab_ball_class + "/" + game[i]);
-                    databaseReference.addValueEventListener(new ValueEventListener() {
+                    databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                         @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                         @Override
@@ -749,7 +749,7 @@ public class Tab_finishdata extends Fragment {
                     }
 
                     databaseReference = FirebaseDatabase.getInstance().getReference().child("gameover_data/"+os.subSequence(0, 10)+"/"  + tab_ball_class + "/" + game[i]);
-                    databaseReference.addValueEventListener(new ValueEventListener() {
+                    databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
 
                         @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                         @Override

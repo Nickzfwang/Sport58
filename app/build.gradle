@@ -38,7 +38,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
 
     })
-
+    compile 'com.qianwen:update-app:3.3.6'
     compile 'com.github.GrenderG:Toasty:1.2.5'
     compile 'cn.gavinliu.android.lib:ScaleLayout:1.0.4'
     compile 'com.github.jetradarmobile:android-snowfall:1.1.6'
@@ -67,5 +67,6 @@ dependencies {
     compile 'com.android.support:gridlayout-v7:25.3.1'
     compile 'com.google.firebase:firebase-ads:11.0.4'
     testCompile 'junit:junit:4.12'
+    compile project(path: ':Spotlight-library')
 }
 apply plugin: 'com.google.gms.google-services'

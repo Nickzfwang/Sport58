@@ -108,6 +108,10 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_spotlight_arc.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\Spotlight-library\\build\\intermediates\\bundles\\default\\res\\drawable\\ic_spotlight_arc.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\d1648cf653752a61ffa456865a583fab2ce9bc7b\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
@@ -312,8 +316,16 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\drawable\\avd_spotlight_arc.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\Spotlight-library\\build\\intermediates\\bundles\\default\\res\\drawable\\avd_spotlight_arc.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lib_update_app_info_bg.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\drawable\\lib_update_app_info_bg.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\release\\drawable\\google_login.png",

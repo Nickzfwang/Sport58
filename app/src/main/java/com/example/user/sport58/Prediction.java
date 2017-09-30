@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.ActionBar;
@@ -21,6 +22,7 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
@@ -35,14 +37,18 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.MutableData;
+import com.google.firebase.database.Transaction;
 import com.google.firebase.database.ValueEventListener;
 import com.jrummyapps.android.animations.Technique;
+import com.wooplr.spotlight.utils.SpotlightSequence;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
 
+import cn.gavinliu.android.lib.scale.ScaleRelativeLayout;
 import es.dmoral.toasty.Toasty;
 
 public class Prediction extends AppCompatActivity implements Runnable {
@@ -69,7 +75,7 @@ public class Prediction extends AppCompatActivity implements Runnable {
     private static boolean L1_bool = false, L2_bool = false, L3_bool = false, L4_bool = false, L5_bool = false, R1_bool = false, R2_bool = false, R3_bool = false, R4_bool = false, R5_bool = false;
     private TextView title;
     private static TextView game_id;
-    private static RelativeLayout tab_low, poker;
+    private static RelativeLayout tab_low, poker,recycler_Realative;
     private static String tab_ball_class;
     private static Toast toast;
     private static Activity predction;
@@ -84,6 +90,8 @@ public class Prediction extends AppCompatActivity implements Runnable {
     private Calendar mCal;
     private CharSequence os;
     private  int mYear, mMonth, mDay;
+    private HorizontalScrollView ballScrollView;
+    private ScaleRelativeLayout select;
     //---------------------------------------------------------------------------------------------------------------//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -106,6 +114,9 @@ public class Prediction extends AppCompatActivity implements Runnable {
 
         //
         //元件的宣告-------------------------------------------------------------------------------------------------------/////
+        recycler_Realative=(RelativeLayout)findViewById(R.id.recycler_Realative);
+        select=(ScaleRelativeLayout)findViewById(R.id.select);
+        ballScrollView=(HorizontalScrollView)findViewById(R.id.ballScrollView);
         game_id = (TextView) findViewById(R.id.game_id);
         poker = (RelativeLayout) findViewById(R.id.poker);
         tab_low = (RelativeLayout) findViewById(R.id.tab_low);
@@ -225,6 +236,21 @@ public class Prediction extends AppCompatActivity implements Runnable {
         Thread thr7 = new Thread(h7);
         thr7.start();
         //
+
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+
+                SpotlightSequence.getInstance(Prediction.this,null)
+                        .addSpotlight(ballScrollView, "球類", "選擇要預測的球類", "7")
+                        .addSpotlight(select,"聯賽及盃賽", "這裡可以選擇您要預測的聯賽或盃賽", "8")
+                        .addSpotlight(recycler_Realative,"預測", "這裡可以選擇您想預測的賽事", "9")
+                        .addSpotlight(poker, "賠率及大小", "這裡可以選擇客隊&主隊的賠率及大小", "10")
+                        .startSequence();
+            }
+        },100);
+
 
 
     }
@@ -735,7 +761,6 @@ public class Prediction extends AppCompatActivity implements Runnable {
                         mCal.setTimeZone(TimeZone.getTimeZone("GMT+8"));
                         CharSequence os = DateFormat.format("yyyy-MM-dd kk:mm:ss", mCal.getTime()); // kk:24小時制, hh:12小時制
                         for (int i = 0; i < 10; i++) {
-
                             time = time + os.subSequence(i, i + 1);
                         }
 
@@ -747,7 +772,7 @@ public class Prediction extends AppCompatActivity implements Runnable {
                                 if (dataSnapshot.exists()) {
                                     for (DataSnapshot ds: dataSnapshot.getChildren()) {
 
-                                        if (ds.child("ni").getValue().toString().matches(mData.get(position).getNi())) {
+                                        if (ds.child("ni").getValue().toString()!=null&&ds.child("ni").getValue().toString().matches(mData.get(position).getNi())) {
                                             bool_use = true;
                                             break;
                                         }
@@ -763,7 +788,7 @@ public class Prediction extends AppCompatActivity implements Runnable {
 
                                         } else {
 
-                                            if(String_time.time(mData.get(position).getAdate())==0)
+                                            if(String_time.time(mData.get(position).getAdate())==0&&mData.get(position).getAdate().toString()!=null)
                                             {
                                                 Toasty.warning(predction, "此場賽事已過可預測時間", Toast.LENGTH_SHORT, true).show();
                                             }
@@ -1461,7 +1486,7 @@ public class Prediction extends AppCompatActivity implements Runnable {
             if (msg.what == 1) {
                 mList.setVisibility(View.GONE);
                 databaseReference = FirebaseDatabase.getInstance().getReference().child("game_data/"+os.subSequence(0, 10)+"/"+ tab_ball_class + "/" + game[i]);
-                databaseReference.addValueEventListener(new ValueEventListener() {
+                databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
                     @Override
                     public void onDataChange(DataSnapshot snapshot) {
@@ -1470,7 +1495,7 @@ public class Prediction extends AppCompatActivity implements Runnable {
                         myDataset.clear();
                         delet = new String[(int) snapshot.getChildrenCount()];
                         for (DataSnapshot ds: snapshot.getChildren()) {
-                            if (String_time.time(ds.child("adate").getValue().toString()) == 1) {
+                            if (ds.child("adate").getValue().toString()!=null&&String_time.time(ds.child("adate").getValue().toString()) == 1) {
                                 contacts = ds.getValue(game_data.class);
                                 delet[j] = ds.getKey();
                                 myDataset.add(contacts);
