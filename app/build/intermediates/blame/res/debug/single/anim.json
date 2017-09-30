@@ -1,11 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\back_scale.xml",
-        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\anim\\back_scale.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
@@ -16,6 +12,10 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\update_app_window_out.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\anim\\update_app_window_out.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
@@ -24,8 +24,8 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_morph_animation.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\79f839565e0a4f4deabdf926317057df654e357f\\output\\res\\anim\\open_morph_animation.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\back_scale.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\anim\\back_scale.xml"
     },
     {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
@@ -56,6 +56,14 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\update_app_window_in.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\anim\\update_app_window_in.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\front_scale.xml",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\anim\\front_scale.xml"
     },
@@ -68,91 +76,11 @@
         "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\anim\\design_snackbar_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\front_scale.xml",
-        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\anim\\front_scale.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\update_app_window_out.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\anim\\update_app_window_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_morph_animation.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\79f839565e0a4f4deabdf926317057df654e357f\\output\\res\\anim\\open_morph_animation.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\back_scale.xml",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\anim\\back_scale.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\anim\\design_fab_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\update_app_window_in.xml",
-        "source": "C:\\Users\\USER\\.android\\build-cache\\8da42e7df620aa6ddb54d0a7fc49c247e08c053e\\output\\res\\anim\\update_app_window_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\e0380c868950c45da1a3511c4ebbe7845a7aeb1b\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\1a414a9e3c47fac38194162a72d06d2d6991874b\\output\\res\\anim\\design_fab_in.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\USER\\.android\\build-cache\\fecc214b6b237f41166368402795b986107410a0\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Wu-PC\\.android\\build-cache\\2eed64c08558e4e41927e31c3b49aac919a9e534\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     }
 ]

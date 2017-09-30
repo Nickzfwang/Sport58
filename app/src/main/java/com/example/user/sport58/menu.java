@@ -47,8 +47,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.wooplr.spotlight.SpotlightView;
-import com.wooplr.spotlight.prefs.PreferencesManager;
 import com.wooplr.spotlight.utils.SpotlightSequence;
+
 
 import java.util.Calendar;
 import java.util.TimeZone;
@@ -737,36 +737,13 @@ resId[1]= R.drawable.bg_3;
     }
 
     //------------------------------------------------------------------------------------------------------------------------------------------------------//
-    //引導指示-----------------------------------------------------------------------------------------////
-    private void showIntro(View view, String usageId) {
-        spotLight = new SpotlightView.Builder(this)
-                .introAnimationDuration(400)
-                .enableRevealAnimation(isRevealEnabled)
-                .performClick(true)
-                .fadeinTextDuration(400)
-                //.setTypeface(FontUtil.get(this, "RemachineScript_Personal_Use"))
-                .headingTvColor(Color.parseColor("#eb273f"))
-                .headingTvSize(32)
-                .headingTvText("Game")
-                .subHeadingTvColor(Color.parseColor("#ffffff"))
-                .subHeadingTvSize(16)
-                .subHeadingTvText("這裡可以觀看賽事資訊")
-                .maskColor(Color.parseColor("#dc000000"))
-                .target(view)
-                .lineAnimDuration(400)
-                .lineAndArcColor(Color.parseColor("#eb273f"))
-                .dismissOnTouch(true)
-                .dismissOnBackPress(true)
-                .enableDismissAfterShown(true)
-                .usageId(usageId) //UNIQUE ID
-                .show();
-    }
+
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
 
         if(spotLight.isShown()){
-            spotLight.removeSpotlightView(false);//Remove current spotlight view from parent
+
 
         }
     }

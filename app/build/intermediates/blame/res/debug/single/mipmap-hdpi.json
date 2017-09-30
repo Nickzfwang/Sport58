@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\Wu-PC\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Sport58\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }
